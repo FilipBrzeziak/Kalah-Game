@@ -127,6 +127,7 @@ public class Server {
                 if (number != 0) {
                     return;
                 }
+                this.board=new Board();
             } catch (Exception e) {
                 System.out.println("Wrong input!");
             }
